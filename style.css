@@ -83,3 +83,42 @@ body {
     border-radius: 5px;
     z-index: 1000;
 }
+
+@media screen and (max-width: 600px) {
+    .container {
+        margin: 20px;
+        margin-top: 70px;
+    }
+    .container h1 {
+        font-size: 32px;
+    }
+    .container button {
+        font-size: 18px;
+        padding: 12px 20px;
+    }
+    .display {
+        padding: 16px 12px;
+    }
+    .display img {
+        width: 24px;
+    }
+    #toast {
+        bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .container {
+        margin: 8%;
+    }
+    .container h1 {
+        font-size: 40px;
+    }
+    .container button {
+        font-size: 20px;
+        padding: 14px 24px;
+    }
+    .display {
+        padding: 20px 16px;
+    }
+}
