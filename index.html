@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="style.css">
+    <title>Generately - By Tauha</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Generate a <br /> <span>Random Password</span></h1>
+        <div class="display">
+            <input type="text" id="password" placeholder="Password">
+            <img onclick="copyToClipBoard()" src="./Images/copy.png" alt="copy-icon">
+        </div>
+        <button onclick="createRandomPassword()"><img src="./Images/generate.png" alt="generate-icon">Generate Password</button>
+        <div id="toast">Copied to clipboard!</div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
